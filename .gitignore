@@ -1,0 +1,7 @@
+<< EOF >> .gitignore
+*.x
+.version
+build/
+errors.err
+EOF
+
