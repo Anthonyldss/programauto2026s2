@@ -1,7 +1,9 @@
 #include <stdio.h>
 
+// Prototipo da funcao
 float celsiusParaFahrenheit(float celsius);
 
+// Main
 int main() {
     float celsius, fahrenheit;
 
@@ -15,7 +17,7 @@ int main() {
     return 0;
 }
 
-
+// Funcoes
 float celsiusParaFahrenheit(float celsius) {
     return (celsius * 9.0 / 5.0) + 32.0;
 }
